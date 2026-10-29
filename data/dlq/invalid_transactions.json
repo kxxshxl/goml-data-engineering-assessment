@@ -1,0 +1,1252 @@
+[
+  {
+    "source_file": "transactions.json",
+    "record_number": 66,
+    "rejected_at": "2026-10-28T20:04:03+00:00",
+    "record": {
+      "transaction_id": "820dd115-ea9b-4048-87df-297c98863fe1",
+      "entity_id": "a5135ea0-fa53-434d-a6d5-901d8b621d41",
+      "category": "Entertainment",
+      "transaction_amount": 188.39,
+      "currency": "BTC",
+      "timestamp": "2026-10-23T12:50:02"
+    },
+    "error": "currency: Value error, unsupported currency 'BTC'; allowed values are ['EUR', 'GBP', 'USD']",
+    "errors": [
+      {
+        "field": "currency",
+        "type": "value_error",
+        "message": "Value error, unsupported currency 'BTC'; allowed values are ['EUR', 'GBP', 'USD']"
+      }
+    ]
+  },
+  {
+    "source_file": "transactions.json",
+    "record_number": 90,
+    "rejected_at": "2026-10-28T20:04:03+00:00",
+    "record": {
+      "transaction_id": "9a00c4c0-d573-4e2d-93dc-7fcb31d3a0c6",
+      "category": "Entertainment",
+      "transaction_amount": 11.3,
+      "currency": "USD",
+      "timestamp": "2026-03-09T07:18:50"
+    },
+    "error": "entity_id: Field required",
+    "errors": [
+      {
+        "field": "entity_id",
+        "type": "missing",
+        "message": "Field required"
+      }
+    ]
+  },
+  {
+    "source_file": "transactions.json",
+    "record_number": 219,
+    "rejected_at": "2026-10-28T20:04:03+00:00",
+    "record": {
+      "transaction_id": "cc5bdf58-841b-44fb-a6af-6ed69c611ab2",
+      "category": "Electronics",
+      "transaction_amount": 609.56,
+      "currency": "EUR",
+      "timestamp": "2026-09-22T02:08:26"
+    },
+    "error": "entity_id: Field required",
+    "errors": [
+      {
+        "field": "entity_id",
+        "type": "missing",
+        "message": "Field required"
+      }
+    ]
+  },
+  {
+    "source_file": "transactions.json",
+    "record_number": 324,
+    "rejected_at": "2026-10-28T20:04:03+00:00",
+    "record": {
+      "transaction_id": "a98635ab-2799-4e48-aea2-6614d24e32b6",
+      "entity_id": "d72b6108-2a40-4f12-b963-f37f67814c1f",
+      "category": "Entertainment",
+      "transaction_amount": 146.2,
+      "currency": "INR",
+      "timestamp": "2026-09-23T16:10:21"
+    },
+    "error": "currency: Value error, unsupported currency 'INR'; allowed values are ['EUR', 'GBP', 'USD']",
+    "errors": [
+      {
+        "field": "currency",
+        "type": "value_error",
+        "message": "Value error, unsupported currency 'INR'; allowed values are ['EUR', 'GBP', 'USD']"
+      }
+    ]
+  },
+  {
+    "source_file": "transactions.json",
+    "record_number": 452,
+    "rejected_at": "2026-10-28T20:04:03+00:00",
+    "record": {
+      "transaction_id": "8f5fa91e-481f-4370-801a-45ed851022e0",
+      "category": "Electronics",
+      "transaction_amount": 1401.92,
+      "currency": "EUR",
+      "timestamp": "2026-02-27T16:56:10"
+    },
+    "error": "entity_id: Field required",
+    "errors": [
+      {
+        "field": "entity_id",
+        "type": "missing",
+        "message": "Field required"
+      }
+    ]
+  },
+  {
+    "source_file": "transactions.json",
+    "record_number": 465,
+    "rejected_at": "2026-10-28T20:04:03+00:00",
+    "record": {
+      "transaction_id": "613c9aa5-ece5-4080-b1ba-e28f75990117",
+      "entity_id": "7914f8a8-bea4-4f31-9174-00f80b2c782a",
+      "category": "Electronics",
+      "transaction_amount": -1079.82,
+      "currency": "EUR",
+      "timestamp": "2026-03-01T07:23:35"
+    },
+    "error": "transaction_amount: Input should be greater than 0",
+    "errors": [
+      {
+        "field": "transaction_amount",
+        "type": "greater_than",
+        "message": "Input should be greater than 0"
+      }
+    ]
+  },
+  {
+    "source_file": "transactions.json",
+    "record_number": 663,
+    "rejected_at": "2026-10-28T20:04:03+00:00",
+    "record": {
+      "transaction_id": "a7d87a89-b97c-4bfd-8935-c39b29065111",
+      "entity_id": "fca45567-0316-42d6-ba4a-58efe3837348",
+      "category": "Healthcare",
+      "transaction_amount": 880.18,
+      "currency": "INR",
+      "timestamp": "2026-06-30T12:33:57"
+    },
+    "error": "currency: Value error, unsupported currency 'INR'; allowed values are ['EUR', 'GBP', 'USD']",
+    "errors": [
+      {
+        "field": "currency",
+        "type": "value_error",
+        "message": "Value error, unsupported currency 'INR'; allowed values are ['EUR', 'GBP', 'USD']"
+      }
+    ]
+  },
+  {
+    "source_file": "transactions.json",
+    "record_number": 689,
+    "rejected_at": "2026-10-28T20:04:03+00:00",
+    "record": {
+      "transaction_id": "3fc89271-a69b-4529-ab06-c37bf962d8ed",
+      "entity_id": "9b3080d5-6fb7-4271-904d-281fc9535b63",
+      "category": "Travel",
+      "transaction_amount": -1668.94,
+      "currency": "EUR",
+      "timestamp": "2026-10-08T19:40:42"
+    },
+    "error": "transaction_amount: Input should be greater than 0",
+    "errors": [
+      {
+        "field": "transaction_amount",
+        "type": "greater_than",
+        "message": "Input should be greater than 0"
+      }
+    ]
+  },
+  {
+    "source_file": "transactions.json",
+    "record_number": 751,
+    "rejected_at": "2026-10-28T20:04:03+00:00",
+    "record": {
+      "transaction_id": "814fd9ba-c71c-41f8-8de9-fcfc3ae81751",
+      "entity_id": "5628ddcd-19dd-4e8c-9605-30356545c030",
+      "category": "Entertainment",
+      "transaction_amount": -269.48,
+      "currency": "USD",
+      "timestamp": "2026-01-26T07:10:36"
+    },
+    "error": "transaction_amount: Input should be greater than 0",
+    "errors": [
+      {
+        "field": "transaction_amount",
+        "type": "greater_than",
+        "message": "Input should be greater than 0"
+      }
+    ]
+  },
+  {
+    "source_file": "transactions.json",
+    "record_number": 756,
+    "rejected_at": "2026-10-28T20:04:03+00:00",
+    "record": {
+      "transaction_id": "a31fe79b-2d2c-442d-8a68-94bf49412afd",
+      "entity_id": null,
+      "category": "Electronics",
+      "transaction_amount": 1518.11,
+      "currency": "EUR",
+      "timestamp": "2026-06-21T14:21:57"
+    },
+    "error": "entity_id: UUID input should be a string, bytes or UUID object",
+    "errors": [
+      {
+        "field": "entity_id",
+        "type": "uuid_type",
+        "message": "UUID input should be a string, bytes or UUID object"
+      }
+    ]
+  },
+  {
+    "source_file": "transactions.json",
+    "record_number": 930,
+    "rejected_at": "2026-10-28T20:04:03+00:00",
+    "record": {
+      "transaction_id": "0fad35f3-8706-4126-af63-ee93525d00c4",
+      "entity_id": "4c859233-8325-4d9e-bf98-e734e2ed8686",
+      "category": "Healthcare",
+      "transaction_amount": -692.23,
+      "currency": "GBP",
+      "timestamp": "2026-02-02T23:10:24"
+    },
+    "error": "transaction_amount: Input should be greater than 0",
+    "errors": [
+      {
+        "field": "transaction_amount",
+        "type": "greater_than",
+        "message": "Input should be greater than 0"
+      }
+    ]
+  },
+  {
+    "source_file": "transactions.json",
+    "record_number": 961,
+    "rejected_at": "2026-10-28T20:04:03+00:00",
+    "record": {
+      "transaction_id": "85a02c8d-a38f-4db7-9577-0238f10fc06f",
+      "entity_id": "fca45567-0316-42d6-ba4a-58efe3837348",
+      "category": "Healthcare",
+      "transaction_amount": -241.05,
+      "currency": "GBP",
+      "timestamp": "2026-03-14T10:54:16"
+    },
+    "error": "transaction_amount: Input should be greater than 0",
+    "errors": [
+      {
+        "field": "transaction_amount",
+        "type": "greater_than",
+        "message": "Input should be greater than 0"
+      }
+    ]
+  },
+  {
+    "source_file": "transactions.json",
+    "record_number": 1018,
+    "rejected_at": "2026-10-28T20:04:03+00:00",
+    "record": {
+      "transaction_id": "a04d4e5c-b631-4b88-8777-5ea2744b90b7",
+      "category": "Groceries",
+      "transaction_amount": 143.4,
+      "currency": "USD",
+      "timestamp": "2026-07-05T11:34:23"
+    },
+    "error": "entity_id: Field required",
+    "errors": [
+      {
+        "field": "entity_id",
+        "type": "missing",
+        "message": "Field required"
+      }
+    ]
+  },
+  {
+    "source_file": "transactions.json",
+    "record_number": 1178,
+    "rejected_at": "2026-10-28T20:04:03+00:00",
+    "record": {
+      "transaction_id": "03961a04-409d-4dfb-b19e-a54ce8f946f3",
+      "entity_id": null,
+      "category": "Groceries",
+      "transaction_amount": 181.09,
+      "currency": "USD",
+      "timestamp": "2026-06-07T08:03:25"
+    },
+    "error": "entity_id: UUID input should be a string, bytes or UUID object",
+    "errors": [
+      {
+        "field": "entity_id",
+        "type": "uuid_type",
+        "message": "UUID input should be a string, bytes or UUID object"
+      }
+    ]
+  },
+  {
+    "source_file": "transactions.json",
+    "record_number": 1259,
+    "rejected_at": "2026-10-28T20:04:03+00:00",
+    "record": {
+      "transaction_id": "8643e467-d963-45de-9cfd-78315c055862",
+      "entity_id": "20509c62-08e8-45d7-b02c-1821c8040fb7",
+      "category": "Entertainment",
+      "transaction_amount": 132.77,
+      "currency": "BTC",
+      "timestamp": "2026-01-30T02:43:03"
+    },
+    "error": "currency: Value error, unsupported currency 'BTC'; allowed values are ['EUR', 'GBP', 'USD']",
+    "errors": [
+      {
+        "field": "currency",
+        "type": "value_error",
+        "message": "Value error, unsupported currency 'BTC'; allowed values are ['EUR', 'GBP', 'USD']"
+      }
+    ]
+  },
+  {
+    "source_file": "transactions.json",
+    "record_number": 1296,
+    "rejected_at": "2026-10-28T20:04:03+00:00",
+    "record": {
+      "transaction_id": "1ec0774b-de6b-4a69-ab4b-eed20695e296",
+      "entity_id": "02740f73-f3ab-4a0d-9be9-fdb3dd92dd7c",
+      "category": "Retail",
+      "transaction_amount": 183.97,
+      "currency": "BTC",
+      "timestamp": "2026-05-28T04:06:57"
+    },
+    "error": "currency: Value error, unsupported currency 'BTC'; allowed values are ['EUR', 'GBP', 'USD']",
+    "errors": [
+      {
+        "field": "currency",
+        "type": "value_error",
+        "message": "Value error, unsupported currency 'BTC'; allowed values are ['EUR', 'GBP', 'USD']"
+      }
+    ]
+  },
+  {
+    "source_file": "transactions.json",
+    "record_number": 1390,
+    "rejected_at": "2026-10-28T20:04:03+00:00",
+    "record": {
+      "transaction_id": "d40e0d08-a961-439b-8db6-bbbb65c9756a",
+      "entity_id": "b962c8a7-b076-47dc-bd0c-e433ca5e151b",
+      "category": "Healthcare",
+      "transaction_amount": -680.75,
+      "currency": "USD",
+      "timestamp": "2026-10-20T20:05:18"
+    },
+    "error": "transaction_amount: Input should be greater than 0",
+    "errors": [
+      {
+        "field": "transaction_amount",
+        "type": "greater_than",
+        "message": "Input should be greater than 0"
+      }
+    ]
+  },
+  {
+    "source_file": "transactions.json",
+    "record_number": 1431,
+    "rejected_at": "2026-10-28T20:04:03+00:00",
+    "record": {
+      "transaction_id": "59e4cc61-52e4-4f22-9da2-d12144f2d898",
+      "entity_id": "9d30c42e-8cf2-4000-8d04-c00156a3dccc",
+      "category": "Healthcare",
+      "transaction_amount": 472.54,
+      "currency": "CAD",
+      "timestamp": "2026-07-10T09:07:25"
+    },
+    "error": "currency: Value error, unsupported currency 'CAD'; allowed values are ['EUR', 'GBP', 'USD']",
+    "errors": [
+      {
+        "field": "currency",
+        "type": "value_error",
+        "message": "Value error, unsupported currency 'CAD'; allowed values are ['EUR', 'GBP', 'USD']"
+      }
+    ]
+  },
+  {
+    "source_file": "transactions.json",
+    "record_number": 1435,
+    "rejected_at": "2026-10-28T20:04:03+00:00",
+    "record": {
+      "transaction_id": "a11d70ab-145a-49ad-a303-f451ae3622de",
+      "entity_id": null,
+      "category": "Electronics",
+      "transaction_amount": 384.36,
+      "currency": "USD",
+      "timestamp": "2026-07-12T11:53:54"
+    },
+    "error": "entity_id: UUID input should be a string, bytes or UUID object",
+    "errors": [
+      {
+        "field": "entity_id",
+        "type": "uuid_type",
+        "message": "UUID input should be a string, bytes or UUID object"
+      }
+    ]
+  },
+  {
+    "source_file": "transactions.json",
+    "record_number": 1623,
+    "rejected_at": "2026-10-28T20:04:03+00:00",
+    "record": {
+      "transaction_id": "1e731124-3fed-4d47-aa9f-17348bae04ed",
+      "category": "Healthcare",
+      "transaction_amount": 150.74,
+      "currency": "USD",
+      "timestamp": "2026-01-24T17:01:36"
+    },
+    "error": "entity_id: Field required",
+    "errors": [
+      {
+        "field": "entity_id",
+        "type": "missing",
+        "message": "Field required"
+      }
+    ]
+  },
+  {
+    "source_file": "transactions.json",
+    "record_number": 1719,
+    "rejected_at": "2026-10-28T20:04:03+00:00",
+    "record": {
+      "transaction_id": "129be956-1d52-41fc-b39c-075da748baa1",
+      "entity_id": "51a40d2a-73d3-4457-b25f-13dfb8d49848",
+      "category": "Travel",
+      "transaction_amount": -126.77,
+      "currency": "EUR",
+      "timestamp": "2026-09-15T14:40:04"
+    },
+    "error": "transaction_amount: Input should be greater than 0",
+    "errors": [
+      {
+        "field": "transaction_amount",
+        "type": "greater_than",
+        "message": "Input should be greater than 0"
+      }
+    ]
+  },
+  {
+    "source_file": "transactions.json",
+    "record_number": 1848,
+    "rejected_at": "2026-10-28T20:04:03+00:00",
+    "record": {
+      "transaction_id": "95cec935-b836-4150-8599-86e816174769",
+      "entity_id": "02740f73-f3ab-4a0d-9be9-fdb3dd92dd7c",
+      "category": "Entertainment",
+      "transaction_amount": 156.76,
+      "currency": "AUD",
+      "timestamp": "2026-10-20T20:57:48"
+    },
+    "error": "currency: Value error, unsupported currency 'AUD'; allowed values are ['EUR', 'GBP', 'USD']",
+    "errors": [
+      {
+        "field": "currency",
+        "type": "value_error",
+        "message": "Value error, unsupported currency 'AUD'; allowed values are ['EUR', 'GBP', 'USD']"
+      }
+    ]
+  },
+  {
+    "source_file": "transactions.json",
+    "record_number": 1891,
+    "rejected_at": "2026-10-28T20:04:03+00:00",
+    "record": {
+      "transaction_id": "33427ae9-63f4-4f27-a1cc-6a9ab417d58b",
+      "entity_id": "82af085c-138d-494c-ab0a-beddc77444cb",
+      "category": "Electronics",
+      "transaction_amount": 818.14,
+      "currency": "AUD",
+      "timestamp": "2026-01-02T01:09:22"
+    },
+    "error": "currency: Value error, unsupported currency 'AUD'; allowed values are ['EUR', 'GBP', 'USD']",
+    "errors": [
+      {
+        "field": "currency",
+        "type": "value_error",
+        "message": "Value error, unsupported currency 'AUD'; allowed values are ['EUR', 'GBP', 'USD']"
+      }
+    ]
+  },
+  {
+    "source_file": "transactions.json",
+    "record_number": 1989,
+    "rejected_at": "2026-10-28T20:04:03+00:00",
+    "record": {
+      "transaction_id": "6db877f2-1082-4a86-8c33-30b29c16b143",
+      "entity_id": "fd5166e6-451b-4cf3-a123-fdf77656af72",
+      "category": "Entertainment",
+      "transaction_amount": 160.3,
+      "currency": "CAD",
+      "timestamp": "2026-10-27T02:44:49"
+    },
+    "error": "currency: Value error, unsupported currency 'CAD'; allowed values are ['EUR', 'GBP', 'USD']",
+    "errors": [
+      {
+        "field": "currency",
+        "type": "value_error",
+        "message": "Value error, unsupported currency 'CAD'; allowed values are ['EUR', 'GBP', 'USD']"
+      }
+    ]
+  },
+  {
+    "source_file": "transactions.json",
+    "record_number": 2236,
+    "rejected_at": "2026-10-28T20:04:03+00:00",
+    "record": {
+      "transaction_id": "086e8764-4ba0-4025-bfb4-a05a8e4c15f3",
+      "entity_id": "1327f1bc-2784-478f-b84f-16b3a79fbfaf",
+      "category": "Healthcare",
+      "transaction_amount": 117.01,
+      "currency": "INR",
+      "timestamp": "2026-03-04T12:36:34"
+    },
+    "error": "currency: Value error, unsupported currency 'INR'; allowed values are ['EUR', 'GBP', 'USD']",
+    "errors": [
+      {
+        "field": "currency",
+        "type": "value_error",
+        "message": "Value error, unsupported currency 'INR'; allowed values are ['EUR', 'GBP', 'USD']"
+      }
+    ]
+  },
+  {
+    "source_file": "transactions.json",
+    "record_number": 2261,
+    "rejected_at": "2026-10-28T20:04:03+00:00",
+    "record": {
+      "transaction_id": "64b286c3-7707-4c82-a95a-6dc28f76608f",
+      "category": "Entertainment",
+      "transaction_amount": 221.26,
+      "currency": "USD",
+      "timestamp": "2026-09-20T18:14:55"
+    },
+    "error": "entity_id: Field required",
+    "errors": [
+      {
+        "field": "entity_id",
+        "type": "missing",
+        "message": "Field required"
+      }
+    ]
+  },
+  {
+    "source_file": "transactions.json",
+    "record_number": 2313,
+    "rejected_at": "2026-10-28T20:04:03+00:00",
+    "record": {
+      "transaction_id": "d46279b5-ae36-4751-b89a-094dc0de8263",
+      "entity_id": "a0ea0251-4957-43a2-81b1-3b8065e1b0f5",
+      "category": "Travel",
+      "transaction_amount": -1099.16,
+      "currency": "USD",
+      "timestamp": "2026-09-09T01:19:20"
+    },
+    "error": "transaction_amount: Input should be greater than 0",
+    "errors": [
+      {
+        "field": "transaction_amount",
+        "type": "greater_than",
+        "message": "Input should be greater than 0"
+      }
+    ]
+  },
+  {
+    "source_file": "transactions.json",
+    "record_number": 2333,
+    "rejected_at": "2026-10-28T20:04:03+00:00",
+    "record": {
+      "transaction_id": "a7749aad-0858-4bdd-9bf5-6c95a7e19ab0",
+      "category": "Retail",
+      "transaction_amount": 22.09,
+      "currency": "EUR",
+      "timestamp": "2026-06-10T17:52:37"
+    },
+    "error": "entity_id: Field required",
+    "errors": [
+      {
+        "field": "entity_id",
+        "type": "missing",
+        "message": "Field required"
+      }
+    ]
+  },
+  {
+    "source_file": "transactions.json",
+    "record_number": 2357,
+    "rejected_at": "2026-10-28T20:04:03+00:00",
+    "record": {
+      "transaction_id": "0b730bca-a29d-4875-90f0-d8022aa49db9",
+      "entity_id": "315c167a-45d8-46ad-b7d0-359e811414f8",
+      "category": "Healthcare",
+      "transaction_amount": 895.56,
+      "currency": "JPY",
+      "timestamp": "2025-12-30T03:04:00"
+    },
+    "error": "currency: Value error, unsupported currency 'JPY'; allowed values are ['EUR', 'GBP', 'USD']",
+    "errors": [
+      {
+        "field": "currency",
+        "type": "value_error",
+        "message": "Value error, unsupported currency 'JPY'; allowed values are ['EUR', 'GBP', 'USD']"
+      }
+    ]
+  },
+  {
+    "source_file": "transactions.json",
+    "record_number": 2373,
+    "rejected_at": "2026-10-28T20:04:03+00:00",
+    "record": {
+      "transaction_id": "18fc0b4f-c483-46c5-bedf-2c3fa4e5f226",
+      "entity_id": "71a3fad2-b094-4d2a-aaa9-3b436d15f16f",
+      "category": "Entertainment",
+      "transaction_amount": -247.11,
+      "currency": "GBP",
+      "timestamp": "2026-03-14T08:55:36"
+    },
+    "error": "transaction_amount: Input should be greater than 0",
+    "errors": [
+      {
+        "field": "transaction_amount",
+        "type": "greater_than",
+        "message": "Input should be greater than 0"
+      }
+    ]
+  },
+  {
+    "source_file": "transactions.json",
+    "record_number": 2413,
+    "rejected_at": "2026-10-28T20:04:03+00:00",
+    "record": {
+      "transaction_id": "1158d4a4-b262-4fdc-ba56-121fd9e9960d",
+      "entity_id": "2dd0622e-266b-42ea-ab93-f78c620af158",
+      "category": "Groceries",
+      "transaction_amount": 166.93,
+      "currency": "BTC",
+      "timestamp": "2026-03-13T07:17:43"
+    },
+    "error": "currency: Value error, unsupported currency 'BTC'; allowed values are ['EUR', 'GBP', 'USD']",
+    "errors": [
+      {
+        "field": "currency",
+        "type": "value_error",
+        "message": "Value error, unsupported currency 'BTC'; allowed values are ['EUR', 'GBP', 'USD']"
+      }
+    ]
+  },
+  {
+    "source_file": "transactions.json",
+    "record_number": 2454,
+    "rejected_at": "2026-10-28T20:04:03+00:00",
+    "record": {
+      "transaction_id": "8ada4996-dbd4-46a6-bc2b-fb2f0fb8d63a",
+      "entity_id": "e9ff1cae-41c8-4a8c-aa1f-955ad499da99",
+      "category": "Electronics",
+      "transaction_amount": 105.49,
+      "currency": "AUD",
+      "timestamp": "2026-10-04T10:09:44"
+    },
+    "error": "currency: Value error, unsupported currency 'AUD'; allowed values are ['EUR', 'GBP', 'USD']",
+    "errors": [
+      {
+        "field": "currency",
+        "type": "value_error",
+        "message": "Value error, unsupported currency 'AUD'; allowed values are ['EUR', 'GBP', 'USD']"
+      }
+    ]
+  },
+  {
+    "source_file": "transactions.json",
+    "record_number": 2497,
+    "rejected_at": "2026-10-28T20:04:03+00:00",
+    "record": {
+      "transaction_id": "8e1adc2b-51a9-4d63-a3d4-1f5a6a7cc62b",
+      "entity_id": "7900f7f9-9382-4b43-922f-e15ae1e3db63",
+      "category": "Groceries",
+      "transaction_amount": 63.16,
+      "currency": "AUD",
+      "timestamp": "2026-09-13T00:15:22"
+    },
+    "error": "currency: Value error, unsupported currency 'AUD'; allowed values are ['EUR', 'GBP', 'USD']",
+    "errors": [
+      {
+        "field": "currency",
+        "type": "value_error",
+        "message": "Value error, unsupported currency 'AUD'; allowed values are ['EUR', 'GBP', 'USD']"
+      }
+    ]
+  },
+  {
+    "source_file": "transactions.json",
+    "record_number": 2649,
+    "rejected_at": "2026-10-28T20:04:03+00:00",
+    "record": {
+      "transaction_id": "df6615fc-630b-4c5d-9e62-ebca896883ea",
+      "category": "Groceries",
+      "transaction_amount": 10.02,
+      "currency": "USD",
+      "timestamp": "2026-10-27T06:24:23"
+    },
+    "error": "entity_id: Field required",
+    "errors": [
+      {
+        "field": "entity_id",
+        "type": "missing",
+        "message": "Field required"
+      }
+    ]
+  },
+  {
+    "source_file": "transactions.json",
+    "record_number": 2701,
+    "rejected_at": "2026-10-28T20:04:03+00:00",
+    "record": {
+      "transaction_id": "5a54228d-d468-4f3e-b33e-28016c85dd96",
+      "entity_id": null,
+      "category": "Electronics",
+      "transaction_amount": 652.0,
+      "currency": "USD",
+      "timestamp": "2026-05-06T05:03:34"
+    },
+    "error": "entity_id: UUID input should be a string, bytes or UUID object",
+    "errors": [
+      {
+        "field": "entity_id",
+        "type": "uuid_type",
+        "message": "UUID input should be a string, bytes or UUID object"
+      }
+    ]
+  },
+  {
+    "source_file": "transactions.json",
+    "record_number": 2716,
+    "rejected_at": "2026-10-28T20:04:03+00:00",
+    "record": {
+      "transaction_id": "ccfd250e-1826-4dc6-a4ed-48a9633c6767",
+      "entity_id": "b0c4a01c-69b7-40fa-a6c4-32f66b352f85",
+      "category": "Retail",
+      "transaction_amount": -177.46,
+      "currency": "EUR",
+      "timestamp": "2026-04-27T02:36:03"
+    },
+    "error": "transaction_amount: Input should be greater than 0",
+    "errors": [
+      {
+        "field": "transaction_amount",
+        "type": "greater_than",
+        "message": "Input should be greater than 0"
+      }
+    ]
+  },
+  {
+    "source_file": "transactions.json",
+    "record_number": 2817,
+    "rejected_at": "2026-10-28T20:04:03+00:00",
+    "record": {
+      "transaction_id": "4fea52e9-8e75-4e33-8a5f-2b1996d7ec56",
+      "category": "Entertainment",
+      "transaction_amount": 105.5,
+      "currency": "USD",
+      "timestamp": "2026-07-31T13:33:01"
+    },
+    "error": "entity_id: Field required",
+    "errors": [
+      {
+        "field": "entity_id",
+        "type": "missing",
+        "message": "Field required"
+      }
+    ]
+  },
+  {
+    "source_file": "transactions.json",
+    "record_number": 2858,
+    "rejected_at": "2026-10-28T20:04:03+00:00",
+    "record": {
+      "transaction_id": "0b2581a7-f47a-43d1-86cb-b624b58fd661",
+      "entity_id": null,
+      "category": "Travel",
+      "transaction_amount": 1065.02,
+      "currency": "USD",
+      "timestamp": "2026-03-07T03:21:37"
+    },
+    "error": "entity_id: UUID input should be a string, bytes or UUID object",
+    "errors": [
+      {
+        "field": "entity_id",
+        "type": "uuid_type",
+        "message": "UUID input should be a string, bytes or UUID object"
+      }
+    ]
+  },
+  {
+    "source_file": "transactions.json",
+    "record_number": 2877,
+    "rejected_at": "2026-10-28T20:04:03+00:00",
+    "record": {
+      "transaction_id": "fdfa2bea-6b4f-4b5f-862a-ed6f6ee2864f",
+      "entity_id": "f3c2944a-b60a-4dcc-a7f7-745142da8609",
+      "category": "Healthcare",
+      "transaction_amount": -569.16,
+      "currency": "USD",
+      "timestamp": "2026-07-06T09:46:14"
+    },
+    "error": "transaction_amount: Input should be greater than 0",
+    "errors": [
+      {
+        "field": "transaction_amount",
+        "type": "greater_than",
+        "message": "Input should be greater than 0"
+      }
+    ]
+  },
+  {
+    "source_file": "transactions.json",
+    "record_number": 2934,
+    "rejected_at": "2026-10-28T20:04:03+00:00",
+    "record": {
+      "transaction_id": "4e94b783-a687-4c8b-8ed6-1c0c393da26d",
+      "entity_id": "b62edb49-2472-46a4-bf38-b918f8f9a45d",
+      "category": "Entertainment",
+      "transaction_amount": -151.42,
+      "currency": "USD",
+      "timestamp": "2025-12-22T16:39:49"
+    },
+    "error": "transaction_amount: Input should be greater than 0",
+    "errors": [
+      {
+        "field": "transaction_amount",
+        "type": "greater_than",
+        "message": "Input should be greater than 0"
+      }
+    ]
+  },
+  {
+    "source_file": "transactions.json",
+    "record_number": 3273,
+    "rejected_at": "2026-10-28T20:04:03+00:00",
+    "record": {
+      "transaction_id": "a36db330-f32a-43d4-b81f-a85e9aa20b9c",
+      "entity_id": null,
+      "category": "Groceries",
+      "transaction_amount": 45.69,
+      "currency": "EUR",
+      "timestamp": "2025-11-07T09:22:58"
+    },
+    "error": "entity_id: UUID input should be a string, bytes or UUID object",
+    "errors": [
+      {
+        "field": "entity_id",
+        "type": "uuid_type",
+        "message": "UUID input should be a string, bytes or UUID object"
+      }
+    ]
+  },
+  {
+    "source_file": "transactions.json",
+    "record_number": 3384,
+    "rejected_at": "2026-10-28T20:04:03+00:00",
+    "record": {
+      "transaction_id": "bbdddf78-744f-424c-a07b-c383e50f8b4f",
+      "entity_id": "0bd4a990-0640-4e0f-a5b8-fd4b32fa2de8",
+      "category": "Retail",
+      "transaction_amount": 49.21,
+      "currency": "JPY",
+      "timestamp": "2026-07-19T16:24:38"
+    },
+    "error": "currency: Value error, unsupported currency 'JPY'; allowed values are ['EUR', 'GBP', 'USD']",
+    "errors": [
+      {
+        "field": "currency",
+        "type": "value_error",
+        "message": "Value error, unsupported currency 'JPY'; allowed values are ['EUR', 'GBP', 'USD']"
+      }
+    ]
+  },
+  {
+    "source_file": "transactions.json",
+    "record_number": 3468,
+    "rejected_at": "2026-10-28T20:04:03+00:00",
+    "record": {
+      "transaction_id": "b6654980-5a5a-4445-9d72-e9e5e1c09ac5",
+      "entity_id": "033e02f7-1e93-4127-acf7-2140bd9bc648",
+      "category": "Groceries",
+      "transaction_amount": -129.95,
+      "currency": "USD",
+      "timestamp": "2025-11-04T14:09:23"
+    },
+    "error": "transaction_amount: Input should be greater than 0",
+    "errors": [
+      {
+        "field": "transaction_amount",
+        "type": "greater_than",
+        "message": "Input should be greater than 0"
+      }
+    ]
+  },
+  {
+    "source_file": "transactions.json",
+    "record_number": 3498,
+    "rejected_at": "2026-10-28T20:04:03+00:00",
+    "record": {
+      "transaction_id": "8c9c0a38-6d7f-4d5b-8f94-a5f1d7044f6b",
+      "entity_id": "4c859233-8325-4d9e-bf98-e734e2ed8686",
+      "category": "Electronics",
+      "transaction_amount": -962.99,
+      "currency": "USD",
+      "timestamp": "2026-06-21T16:30:05"
+    },
+    "error": "transaction_amount: Input should be greater than 0",
+    "errors": [
+      {
+        "field": "transaction_amount",
+        "type": "greater_than",
+        "message": "Input should be greater than 0"
+      }
+    ]
+  },
+  {
+    "source_file": "transactions.json",
+    "record_number": 3762,
+    "rejected_at": "2026-10-28T20:04:03+00:00",
+    "record": {
+      "transaction_id": "c63993df-e6c9-4c26-a89e-4245f8e88eb0",
+      "entity_id": "1b968925-5682-4038-b77f-69b930c9c51f",
+      "category": "Entertainment",
+      "transaction_amount": -15.02,
+      "currency": "USD",
+      "timestamp": "2026-07-21T10:32:58"
+    },
+    "error": "transaction_amount: Input should be greater than 0",
+    "errors": [
+      {
+        "field": "transaction_amount",
+        "type": "greater_than",
+        "message": "Input should be greater than 0"
+      }
+    ]
+  },
+  {
+    "source_file": "transactions.json",
+    "record_number": 3775,
+    "rejected_at": "2026-10-28T20:04:03+00:00",
+    "record": {
+      "transaction_id": "a3e96af2-9a4a-481a-a167-54e14d29f24e",
+      "category": "Healthcare",
+      "transaction_amount": 187.07,
+      "currency": "USD",
+      "timestamp": "2026-05-11T02:15:06"
+    },
+    "error": "entity_id: Field required",
+    "errors": [
+      {
+        "field": "entity_id",
+        "type": "missing",
+        "message": "Field required"
+      }
+    ]
+  },
+  {
+    "source_file": "transactions.json",
+    "record_number": 3785,
+    "rejected_at": "2026-10-28T20:04:03+00:00",
+    "record": {
+      "transaction_id": "faca1a8f-7143-4ea7-a2fb-055022adaf6f",
+      "entity_id": null,
+      "category": "Electronics",
+      "transaction_amount": 836.29,
+      "currency": "USD",
+      "timestamp": "2025-11-26T12:56:19"
+    },
+    "error": "entity_id: UUID input should be a string, bytes or UUID object",
+    "errors": [
+      {
+        "field": "entity_id",
+        "type": "uuid_type",
+        "message": "UUID input should be a string, bytes or UUID object"
+      }
+    ]
+  },
+  {
+    "source_file": "transactions.json",
+    "record_number": 3958,
+    "rejected_at": "2026-10-28T20:04:03+00:00",
+    "record": {
+      "transaction_id": "76e495a3-c762-4d2e-9434-e02dae716f47",
+      "entity_id": "b0c4a01c-69b7-40fa-a6c4-32f66b352f85",
+      "category": "Electronics",
+      "transaction_amount": -1804.09,
+      "currency": "USD",
+      "timestamp": "2026-10-16T11:08:55"
+    },
+    "error": "transaction_amount: Input should be greater than 0",
+    "errors": [
+      {
+        "field": "transaction_amount",
+        "type": "greater_than",
+        "message": "Input should be greater than 0"
+      }
+    ]
+  },
+  {
+    "source_file": "transactions.json",
+    "record_number": 4246,
+    "rejected_at": "2026-10-28T20:04:03+00:00",
+    "record": {
+      "transaction_id": "31f3329b-ed80-42fe-9509-bbe9001e4962",
+      "entity_id": "808e08d2-5d26-4b1b-a593-b659172e8c68",
+      "category": "Retail",
+      "transaction_amount": 128.41,
+      "currency": "JPY",
+      "timestamp": "2025-10-29T00:28:25"
+    },
+    "error": "currency: Value error, unsupported currency 'JPY'; allowed values are ['EUR', 'GBP', 'USD']",
+    "errors": [
+      {
+        "field": "currency",
+        "type": "value_error",
+        "message": "Value error, unsupported currency 'JPY'; allowed values are ['EUR', 'GBP', 'USD']"
+      }
+    ]
+  },
+  {
+    "source_file": "transactions.json",
+    "record_number": 4290,
+    "rejected_at": "2026-10-28T20:04:03+00:00",
+    "record": {
+      "transaction_id": "a5cbb17a-372e-4b58-a7a0-9ef766668d28",
+      "entity_id": "fc3d3348-008d-4127-a104-61e32a25a888",
+      "category": "Healthcare",
+      "transaction_amount": 544.83,
+      "currency": "JPY",
+      "timestamp": "2026-02-07T23:05:34"
+    },
+    "error": "currency: Value error, unsupported currency 'JPY'; allowed values are ['EUR', 'GBP', 'USD']",
+    "errors": [
+      {
+        "field": "currency",
+        "type": "value_error",
+        "message": "Value error, unsupported currency 'JPY'; allowed values are ['EUR', 'GBP', 'USD']"
+      }
+    ]
+  },
+  {
+    "source_file": "transactions.json",
+    "record_number": 4310,
+    "rejected_at": "2026-10-28T20:04:03+00:00",
+    "record": {
+      "transaction_id": "e907799c-f5c4-4752-9238-d1a859a3161f",
+      "entity_id": "e0e3c5ce-44af-4cb7-9f2e-befcf480b91e",
+      "category": "Retail",
+      "transaction_amount": 162.15,
+      "currency": "INR",
+      "timestamp": "2025-11-08T09:16:34"
+    },
+    "error": "currency: Value error, unsupported currency 'INR'; allowed values are ['EUR', 'GBP', 'USD']",
+    "errors": [
+      {
+        "field": "currency",
+        "type": "value_error",
+        "message": "Value error, unsupported currency 'INR'; allowed values are ['EUR', 'GBP', 'USD']"
+      }
+    ]
+  },
+  {
+    "source_file": "transactions.json",
+    "record_number": 4315,
+    "rejected_at": "2026-10-28T20:04:03+00:00",
+    "record": {
+      "transaction_id": "dc8e9f8a-1a21-4b33-b926-94c634aae3f8",
+      "entity_id": null,
+      "category": "Electronics",
+      "transaction_amount": 1390.76,
+      "currency": "USD",
+      "timestamp": "2026-10-15T18:28:22"
+    },
+    "error": "entity_id: UUID input should be a string, bytes or UUID object",
+    "errors": [
+      {
+        "field": "entity_id",
+        "type": "uuid_type",
+        "message": "UUID input should be a string, bytes or UUID object"
+      }
+    ]
+  },
+  {
+    "source_file": "transactions.json",
+    "record_number": 4432,
+    "rejected_at": "2026-10-28T20:04:03+00:00",
+    "record": {
+      "transaction_id": "f6e98b74-a37d-440c-9c84-944d176a3da9",
+      "entity_id": "51d08109-fc90-4838-9874-1408f7b217c7",
+      "category": "Healthcare",
+      "transaction_amount": -643.88,
+      "currency": "GBP",
+      "timestamp": "2026-07-28T15:17:03"
+    },
+    "error": "transaction_amount: Input should be greater than 0",
+    "errors": [
+      {
+        "field": "transaction_amount",
+        "type": "greater_than",
+        "message": "Input should be greater than 0"
+      }
+    ]
+  },
+  {
+    "source_file": "transactions.json",
+    "record_number": 4544,
+    "rejected_at": "2026-10-28T20:04:03+00:00",
+    "record": {
+      "transaction_id": "908e006e-0033-465c-9b0f-5962843b76b8",
+      "entity_id": "14c8b3b4-a911-4192-83bf-d9313605bf54",
+      "category": "Travel",
+      "transaction_amount": -1159.86,
+      "currency": "USD",
+      "timestamp": "2026-10-20T15:28:25"
+    },
+    "error": "transaction_amount: Input should be greater than 0",
+    "errors": [
+      {
+        "field": "transaction_amount",
+        "type": "greater_than",
+        "message": "Input should be greater than 0"
+      }
+    ]
+  },
+  {
+    "source_file": "transactions.json",
+    "record_number": 4621,
+    "rejected_at": "2026-10-28T20:04:03+00:00",
+    "record": {
+      "transaction_id": "77a60544-971f-4b98-b525-8a33df836b0e",
+      "entity_id": "8bddcee3-70fd-4672-b80f-16c5c28fa16b",
+      "category": "Electronics",
+      "transaction_amount": 778.4,
+      "currency": "CAD",
+      "timestamp": "2026-01-16T15:22:36"
+    },
+    "error": "currency: Value error, unsupported currency 'CAD'; allowed values are ['EUR', 'GBP', 'USD']",
+    "errors": [
+      {
+        "field": "currency",
+        "type": "value_error",
+        "message": "Value error, unsupported currency 'CAD'; allowed values are ['EUR', 'GBP', 'USD']"
+      }
+    ]
+  },
+  {
+    "source_file": "transactions.json",
+    "record_number": 4633,
+    "rejected_at": "2026-10-28T20:04:03+00:00",
+    "record": {
+      "transaction_id": "2dace859-6b76-4c7f-91fb-b075628474b8",
+      "entity_id": "02740f73-f3ab-4a0d-9be9-fdb3dd92dd7c",
+      "category": "Electronics",
+      "transaction_amount": 1263.53,
+      "currency": "CAD",
+      "timestamp": "2026-10-05T04:51:49"
+    },
+    "error": "currency: Value error, unsupported currency 'CAD'; allowed values are ['EUR', 'GBP', 'USD']",
+    "errors": [
+      {
+        "field": "currency",
+        "type": "value_error",
+        "message": "Value error, unsupported currency 'CAD'; allowed values are ['EUR', 'GBP', 'USD']"
+      }
+    ]
+  },
+  {
+    "source_file": "transactions.json",
+    "record_number": 4659,
+    "rejected_at": "2026-10-28T20:04:03+00:00",
+    "record": {
+      "transaction_id": "3f5e9294-1ab4-42e8-b61c-ab86127870a4",
+      "entity_id": null,
+      "category": "Electronics",
+      "transaction_amount": 500.46,
+      "currency": "EUR",
+      "timestamp": "2026-10-18T23:54:16"
+    },
+    "error": "entity_id: UUID input should be a string, bytes or UUID object",
+    "errors": [
+      {
+        "field": "entity_id",
+        "type": "uuid_type",
+        "message": "UUID input should be a string, bytes or UUID object"
+      }
+    ]
+  },
+  {
+    "source_file": "transactions.json",
+    "record_number": 4745,
+    "rejected_at": "2026-10-28T20:04:03+00:00",
+    "record": {
+      "transaction_id": "3ba484a9-f963-4bd0-adcd-0633e67a1e81",
+      "entity_id": "fe2110d0-4bbe-4aff-9326-dffd5be4bf51",
+      "category": "Entertainment",
+      "transaction_amount": -274.73,
+      "currency": "USD",
+      "timestamp": "2026-04-08T09:22:39"
+    },
+    "error": "transaction_amount: Input should be greater than 0",
+    "errors": [
+      {
+        "field": "transaction_amount",
+        "type": "greater_than",
+        "message": "Input should be greater than 0"
+      }
+    ]
+  },
+  {
+    "source_file": "transactions.json",
+    "record_number": 4764,
+    "rejected_at": "2026-10-28T20:04:03+00:00",
+    "record": {
+      "transaction_id": "48ccc490-3fb3-4962-abcd-ec69f748d0d3",
+      "entity_id": "808e08d2-5d26-4b1b-a593-b659172e8c68",
+      "category": "Healthcare",
+      "transaction_amount": -493.65,
+      "currency": "USD",
+      "timestamp": "2026-08-19T01:44:25"
+    },
+    "error": "transaction_amount: Input should be greater than 0",
+    "errors": [
+      {
+        "field": "transaction_amount",
+        "type": "greater_than",
+        "message": "Input should be greater than 0"
+      }
+    ]
+  },
+  {
+    "source_file": "transactions.json",
+    "record_number": 4922,
+    "rejected_at": "2026-10-28T20:04:03+00:00",
+    "record": {
+      "transaction_id": "eb86f66c-42e0-4d19-8097-5e52be0669d1",
+      "entity_id": null,
+      "category": "Retail",
+      "transaction_amount": 271.58,
+      "currency": "USD",
+      "timestamp": "2026-09-30T18:17:34"
+    },
+    "error": "entity_id: UUID input should be a string, bytes or UUID object",
+    "errors": [
+      {
+        "field": "entity_id",
+        "type": "uuid_type",
+        "message": "UUID input should be a string, bytes or UUID object"
+      }
+    ]
+  }
+]

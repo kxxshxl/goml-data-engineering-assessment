@@ -1,0 +1,32 @@
+# Virtual environments
+.venv/
+venv/
+env/
+
+# Python caches / build artefacts
+__pycache__/
+*.py[cod]
+*.egg-info/
+build/
+dist/
+
+# Test / tooling caches
+.pytest_cache/
+.coverage
+htmlcov/
+.mypy_cache/
+.ruff_cache/
+
+# DuckDB warehouse: rebuilt by `python -m src.pipeline`, so it is not version-controlled
+data/warehouse.duckdb
+*.duckdb.wal
+*.duckdb.tmp/
+
+# Temporary DLQ files written during an atomic replace
+data/dlq/*.tmp
+
+# Editors / OS
+.vscode/
+.idea/
+.DS_Store
+Thumbs.db
